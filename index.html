@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>TODO app</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="functions.js"></script>
-    </head>
-    <body>
-        <form id="new-task-form">
-            <h1>My Task List</h1>
-            <input class="new-task-input" type="text" value="What have you planned today ?">
-            <input class="new-task-submit" type="submit">
-        </form>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TODO app</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="functions.js"></script>
+</head>
+
+<body>
+    <form id="new-task-form">
+        <h1>My Task List</h1>
+        <input id="new-task-input" type="text" placeholder="What have you planned today ?">
+        <input id="new-task-submit" type="submit" value="Add task">
+
+        <p class="tasks-to-do">TO DO</p>
+        <todo>
+            <!--
+            <div id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="A new task" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="finished">Done</button>
+                        <button class="edit">Edit</button>
+                        <button class="delete">Remove</button>
+                    </div>
+                </div>
+            </div>
+        -->
+        </todo>
+        <p class="tasks-done">DONE</p>
+        <done>
+            <!--
+            <div class="task">
+                <div class="content">
+                    <input type="text" class="text" value="Task done succesfully" readonly>
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                </div>
+            </div>
+        -->
+        </done>
+    </form>
+</body>
+
 </html>
