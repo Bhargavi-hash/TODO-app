@@ -46,6 +46,7 @@ input, button {
     color: var(--white);
     font-size: 1.25rem;
     font-weight: 500;
+    transition: 0.5s;
 }
 
 #new-task-input::placeholder {
@@ -109,6 +110,17 @@ done {
 }
 
 #tasks .task {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--darkest);
+	padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+#done_tasks .task {
 	display: flex;
 	justify-content: space-between;
 	background-color: var(--darkest);
