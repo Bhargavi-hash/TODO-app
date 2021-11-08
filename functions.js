@@ -91,7 +91,7 @@ window.addEventListener('load', () => {
             done_task_content_el.appendChild(done_task_input_el);
 
             done_list_el.appendChild(done_task_el);
-            done_list_el.appendChild(done_task_el);
+            // done_list_el.appendChild(done_task_el);
             list_el.removeChild(task_el);
         });
 

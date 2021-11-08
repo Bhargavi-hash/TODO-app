@@ -10,6 +10,8 @@
     --green2  : #05661a;
     --yellow1 : rgb(247, 183, 89);
     --yellow2 : rgb(156, 90, 4);
+    --blue    : rgb(74, 208, 248);
+    --darkblue: blue;
 }
 
 * {
@@ -36,6 +38,7 @@ input, button {
 	outline: none; 
 	background: none;
 }
+
 
 #new-task-input {
     width: 60%;
