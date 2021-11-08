@@ -1,5 +1,5 @@
 # TODO-app
-Simple TODO app designed to organize our daily tasks with add, edit and delete functionalities.
+Simple TODO app designed to organize your daily tasks with add, edit and delete functionalities.
 
 ## How to open ?
 ### - Using CLI
@@ -34,7 +34,30 @@ Now you can find the "TODO-app" folder in your current repository.
 ![2](https://user-images.githubusercontent.com/82858718/140700316-56aaa583-a23c-426e-b7d3-24e84e0e93f0.png)
 ### Done tasks
 ![3](https://user-images.githubusercontent.com/82858718/140700521-0b3cd019-b5d0-4c77-aa79-867ed8a69f37.png)
+***********************************************************************************************************
+## Functionalities implemented :
+* Add Task
+* Remove task
+* Edit task
+* Done task
 
+### Add Task:
+Enter your task in the required field and click on "Add Task" option to find your entered task in the TODO list below.
+If no task is entered you will get an alert to enter some input.
+
+### Remove Task:
+On clicking on the "REMOVE" option in the TODO list you will delete that particular task permanantly from the list
+
+### Edit Task:
+On clicking on the "EDIT" option in the TODO list you will be able to update a particular task. You will not be able to update the task unless and untill select the "EDIT" option because the task displayed will be in "readonly" mode. 
+
+"EDIT" option is necessory to remove the "readonly" mode.
+
+### Done task:
+Clicking the "DONE" option in TODO list means that you are done with the task and no more want it in the TODO list but want
+to display it in the DONE list instead of deleting it.
+
+Doing this you will find your completed task in the DONE section and that particular task will be deleted from the TODO section.
 ***********************************************************************************************************
 
 **Try playing with this simple application and have a nice day :). Thank you**
