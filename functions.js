@@ -18,7 +18,8 @@ window.addEventListener('load', () => {
             alert("Please fill out the task !");
             return;
         }
-
+        
+        // Creating elements for ToDo task list
         const task_el = document.createElement('div');
         task_el.classList.add('task');
 
@@ -37,7 +38,8 @@ window.addEventListener('load', () => {
 
         const task_actions_el = document.createElement('div');
         task_actions_el.classList.add('actions');
-
+        
+        // Creating DONE, EDIT, and REMOVE buttons
         const task_finished_el = document.createElement('button');
         task_finished_el.classList.add('finished');
         task_finished_el.innerText = 'Done';
@@ -79,6 +81,7 @@ window.addEventListener('load', () => {
             }
         });
 
+        // If DONE is choosen then add the task to DONE tasks list and delete from TODO list
         task_finished_el.addEventListener('click', (e) => {
             const done_task_el = document.createElement('div');
             done_task_el.classList.add('task');
